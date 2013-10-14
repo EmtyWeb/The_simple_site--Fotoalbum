@@ -1,0 +1,197 @@
+﻿html{
+	color:#FFFFFF;
+	background:#0F1A25;
+	font: 23px Arial;
+	text-align:center;
+}
+body{
+    margin:0;
+}
+/*Наша верхняя часть сайта*/
+#header{
+	width:100%;
+	height:160px;
+	margin:0 auto;
+	background:#0F1A25;
+	border-bottom: 3px solid #A29161;
+	position:relative;
+}
+#emblem{
+    background:url(../img/logo.fw.png) no-repeat;
+    height:146px;
+    width:89px;
+	position:absolute;
+	top:10px;
+	left: 70px;
+}
+
+/*Начало блока меню*/
+#menu_header{
+	position:absolute;
+	left: 330px;
+	top: 30px;
+}
+#menu{
+	width:500px;
+	height:30px;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+}
+#menu li{
+	float:left;
+	position:relative;
+	list-style:none;
+    width: 160px;
+   	border-left:1px solid #A59061;
+    text-align:center;
+		font:18px Arial;
+
+}
+#menu li a{
+	display:inline-block;
+	height:40px;
+	line-height:43px;
+	padding:0 31px;
+	text-transform:uppercase;
+	text-decoration:none;	
+	color:#A29161;
+}
+#home{
+    border-left:none !important;
+}
+#menu li a:hover{
+	background:#192B3C;
+	color:#FFFFFF;
+    width: 100px; 
+}
+#enter{
+    float:right;
+    border:2px dashed #A29161;
+    padding:5px;
+    font:20px Arial;
+    text-decoration: none;
+	width: 200px;
+	text-align:center;
+}
+.enter1{
+ font:20px Arial;
+ color:#A29161;
+}
+/*Наша основная часть сайта*/
+#main{
+	width:100%;
+	min-height:350px;
+	margin:0 auto;
+	background:#0F1A25;
+}
+/*Наша левый блок сайта*/
+#left{
+	float:left;
+	width:200px;
+	min-height:100px;
+	margin:0  auto;
+}
+#home_left{
+		text-decoration:none;
+		color: #FFFFFF;
+}
+#menu_left{
+margin:0 45px  0 0;
+}
+#menu_left li{
+	margin:15px 0 0 0;
+	list-style:none;
+	font:18px Arial;
+}
+#menu_left li a{
+	text-decoration:none;
+	color:#A29161;
+	list-style:none;	
+}
+#menu_left li a:hover{
+	color:#FFFFFF;	
+}
+/*Наша правый блок сайта*/
+#right{
+	border-left: 3px solid #A29161;
+	border-right: 3px solid #A29161;
+	margin: 0 210px;
+	min-height:400px;
+	width:930px
+}
+#reklama{
+	position:absolute;
+	left:1155px;
+	top:170px;
+	width:200px;
+	height:300px;
+	background:url(../img/mesto.gif) no-repeat;
+}
+.link{
+	width:200px;
+	height:200px;
+	display:block;
+	position:absolute;
+	bottom:0;
+
+}
+#picture_border{
+	border: 1px solid #A29161;
+	margin: 0 auto;
+	width:890px;
+}
+#picture{
+	display: inline-block;
+	margin: 10px;
+	position:relative;
+}
+#imge{
+	width:200px;
+	height:200px;
+}
+#add_images{
+	border-top:1px solid #A29161;
+}
+#num{
+	text-decoration:none;
+	margin:2px;
+	color:#A29161;
+}
+#num a:hover{
+	color:#FFFFFF;	
+}
+.form_load{
+	margin: 5px auto;
+	width: 300px;
+	border:3px solid #A29161;
+}
+.image_big{
+
+}
+/*Наша нижняя часть сайта*/
+#footer{
+    clear: both;
+	width:100%;
+	height:30px;
+	margin: 0;
+	background:#0F1A25;
+	border-top: 3px solid #A29161;
+}
+#foo_down{
+	text-align:right;
+	font:14px Arial;
+}
+
+#modal{
+    width:100%;
+    height:100%;
+    background: rgba(66, 66, 66, 0.75);
+    display:block;
+    margin:0 auto;
+    position:absolute;
+    top: 0 ;
+    left:0;
+}
+
